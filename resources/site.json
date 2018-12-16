@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "externalId": 1,
+        "template": "home",
+        "order": 0,
+        "languageCode": "IT-it",
+        "textuals": [
+            {
+                "id": 1,
+                "order": 0,
+                "languageCode": "IT-it",
+                "title": "Questa è l'homepage",
+                "subtitle": "Benvenuti nel mio sito",
+                "description": "Questo sito è bello perchè ha una descrizione con molto senso"
+            }
+        ],
+        "attachments": [
+            {
+                "id": 1,
+                "order": 0,
+                "languageCode": "IT-it",
+                "title": "Questa è l'immagine del sito",
+                "description": "è una bella immagine",
+                "src": "/images/img1.jpg",
+                "href": "https: //www.google.com"
+            }
+        ],
+        "links": [],
+        "components": []
+    },
+    {
+        "id": 2,
+        "externalId": 2,
+        "template": "textual",
+        "order": 0,
+        "languageCode": "IT-it",
+        "textuals": [
+            {
+                "id": 1,
+                "order": 0,
+                "languageCode": "IT-it",
+                "title": "Chi sono",
+                "subtitle": "I'm a programmer",
+                "description": "<h3>titoletto</h3> more stuff"
+            }
+        ],
+        "links": [],
+        "components": []
+    }
+]
