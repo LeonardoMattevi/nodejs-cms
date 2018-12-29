@@ -10,15 +10,16 @@ app.get('/', (req, res) => {
 	let strMenuPages = "";
 	for (let i = 0; i < site.pages.length; i++) {
 		let page = site.pages[i];
-		strMenuPages += '<li><a href="localhost:3000/' + encodeURI(page.textuals[0].title) + '">' + page.textuals[0].title + '</a></li>';
+		strMenuPages += '<li><a href="/' + encodeURI(page.textuals[0].title) + '">' + page.textuals[0].title + '</a></li>';
 	}
 	// TODO: install an HTML templating engine
 	res.send(`
+		<!DOCTYPE html>
 		<html>
 			<head>
 				<title>homepage</title>
 			</head>
-			<body>
+			<body>			
 				<ul>` + strMenuPages + `</ul>			
 			</body>
 		</html>
